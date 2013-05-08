@@ -41,6 +41,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "lodash": "~1.2.1"
+    "lodash": "~1.2.1",
+    "swig": "~0.13.5"
   }
 }
