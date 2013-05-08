@@ -1,0 +1,4 @@
+v0.1.0:
+  date: "2013-05-07"
+  changes:
+    - New Assemble engine plugin for swig templates.

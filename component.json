@@ -1,0 +1,21 @@
+{
+  "name": "assemble-swig",
+  "description": "Assemble engine plugin for swig templates.",
+  "version": "0.1.0",
+  "repo": "assemble/assemble-swig",
+  "main": [
+    "./lib/assemble-swig.js"
+  ],
+  "dependencies": {
+    "chai": "~1.5.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-mocha-test": "~0.2.0"
+  },
+  "styles": [],
+  "scripts": [],
+  "images": [],
+  "fonts": [],
+  "files": []
+}

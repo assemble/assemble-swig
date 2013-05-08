@@ -1,0 +1,46 @@
+{
+  "name": "assemble-swig",
+  "description": "Assemble engine plugin for swig templates.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/assemble-swig",
+  "author": {
+    "name": "Assemble",
+    "email": "brian.woodward@gmail.com",
+    "url": "https://github.com/assemble/assemble"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/assemble/assemble-swig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-swig/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/assemble-swig/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./lib/assemble-swig",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "lodash": "~1.2.1"
+  }
+}
