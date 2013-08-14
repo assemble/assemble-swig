@@ -20,11 +20,11 @@ module.exports = function(grunt) {
         jshintrc: '.jshintrc'
       }
     }
-
   });
 
+  grunt.loadNpmTasks('assemble-internal');
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['jshint']);
-
+  // The default task that runs with the "grunt" command.
+  grunt.registerTask('default', ['jshint', 'assemble-internal']);
 };
