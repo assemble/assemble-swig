@@ -31,6 +31,10 @@ grunt.initConfig({
   assemble: {
     options: {
       // Task-specific options go here
+      engine: 'swig',
+      swig: {
+        varControls: ["<%=", "%>"]
+      }
     },
     site: {
       options: {
