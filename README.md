@@ -55,6 +55,17 @@ assemble: {
 ```
 
 
+## Related projects
+
+* [sublime-swig](https://github.com/jonschlinkert/sublime-swig) syntax highlight for Swig Templates, in Sublime Text.
+* [sublime-monokai-extended](https://github.com/jonschlinkert/sublime-monokai-extended)
+* [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended)
+* [assemble](http://github.com/assemble) (see the [live docs](http://assemble.io))
+* [assemble-swig](http://github.com/assemble/assemble-swig)
+* [assemble-swig-examples](http://github.com/assemble/assemble-swig-examples)
+
+
+
 ## Release History
 
  * 2013-08-07   v0.1.0   New Assemble engine plugin for swig templates.
